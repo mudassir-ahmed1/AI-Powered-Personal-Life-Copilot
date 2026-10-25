@@ -36,12 +36,12 @@ from skills.apps_skill import open_application, close_application, force_close_a
 from skills.calculator_skill import calculate
 
 # ─── Configuration ───────────────────────────────────────────────
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = ""
 MODEL_NAME = "phi3"
 USE_GUI = True
 
-WEATHER_API_KEY = "02a033ba6dfb53f1f1f554619766b9e3"
-NEWS_API_KEY = "1e636be1aa894740b1e541ed8fd7fdad"
+WEATHER_API_KEY = ""
+NEWS_API_KEY = ""
 
 jarvis_ui = None
 reminders = []
